@@ -1,11 +1,11 @@
 # EntertainingDiversions
-分段式跑马灯，主要为解决重用，内部使用了CAdislink 如果觉得影响手机性能，可以使用其他的处理。
+分段式跑马灯，主要为解决重用，内部使用了CADisplayLink 如果觉得影响手机性能，可以使用其他的处理。
 
-
+# 当前版本 1.0.1
 
 ### 使用方法
 
-> 安装：pod 'RunCircleView','~> 1.0.0'
+> 安装：pod 'RunCircleView','~> 1.0.1'
 
 
 > CycleCustomView  可以在xib中直接设置 也可以用代码创建
