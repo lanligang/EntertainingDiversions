@@ -17,6 +17,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 -(void)addOffSetX:(CGFloat)offSetX;
 
+-(void)throwAwaySelf;
+
 @end
 
 NS_ASSUME_NONNULL_END

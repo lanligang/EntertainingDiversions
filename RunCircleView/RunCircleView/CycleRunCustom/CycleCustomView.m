@@ -215,7 +215,10 @@
 //外部注册Item
 -(CycleItem *)dequestWithIdentifier:(NSString *)identifier andIndex:(NSInteger)index
 {
-	return [self findItemWithIdentifier:identifier andIndex:index];
+	CycleItem *item = [self findItemWithIdentifier:identifier andIndex:index];
+	item.alpha = 1;
+	item.layer.transform = CATransform3DMakeScale(1, 1, 1);
+	return item;
 }
 -(CycleItem *)findItemWithIdentifier:(NSString *)identifier andIndex:(NSInteger)index
 {

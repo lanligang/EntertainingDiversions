@@ -21,7 +21,8 @@
 		lable.textColor = [UIColor blackColor];
 		[self addSubview:lable];
 		_lable = lable;
-
+		self.layer.cornerRadius = 15;
+		self.clipsToBounds = YES;
 		self.backgroundColor = [UIColor redColor];
 	}
 	return self;

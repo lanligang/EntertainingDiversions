@@ -68,9 +68,9 @@
 }
 //选中的是第几个
 -(void)cycleCustomView:(CycleCustomView *)cycleView
-			didSeletedItem:(CycleItem *)iten
+			didSeletedItem:(CycleItem *)item
 				 withIndex:(NSInteger)index {
-	NSLog(@"点击了第 %@ 个",@(index));
+	[item throwAwaySelf];
 }
 //起始值的第一个间距
 -(CGFloat)startItemLeftMargin:(CycleCustomView *)cycleView
