@@ -35,7 +35,7 @@
 //修改偏移量
 -(void)addOffSetX:(CGFloat)offSetX {
 	CGRect rect = self.frame;
-	rect.origin.x -= offSetX * 2;
+	rect.origin.x -= offSetX;
 	self.frame = rect;
 	if (CGRectGetMaxX(self.frame) < 0) { //如果比 0 还小 自动移除
 		[self removeFromSuperview];
